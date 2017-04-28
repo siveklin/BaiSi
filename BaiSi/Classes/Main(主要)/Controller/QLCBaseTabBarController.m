@@ -22,7 +22,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    //添加导航控制器到TabBar上
+    QLCEssenceNavigationController *essenceNav = [[QLCEssenceNavigationController alloc] init];
+    QLCFriendTrendsNavigationController *friendTrendsNav = [[QLCFriendTrendsNavigationController alloc] init];
+    QLCMineNavigationController *mineNav = [[QLCMineNavigationController alloc] init];
+    QLCNewNavigationController *newNav = [[QLCNewNavigationController alloc] init];
+    QLCPublishNavigationController *publishNav = [[QLCPublishNavigationController alloc] init];
+    
+    [self setViewControllers:@[essenceNav,friendTrendsNav,mineNav,newNav,publishNav]];
 }
 
 - (void)didReceiveMemoryWarning {

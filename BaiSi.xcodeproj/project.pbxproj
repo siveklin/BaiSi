@@ -19,6 +19,7 @@
 		790D59461EB3457A004184EF /* QLCMineNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D59451EB3457A004184EF /* QLCMineNavigationController.m */; };
 		790D59491EB3458E004184EF /* QLCNewNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D59481EB3458E004184EF /* QLCNewNavigationController.m */; };
 		790D594C1EB345A0004184EF /* QLCPublishNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D594B1EB345A0004184EF /* QLCPublishNavigationController.m */; };
+		790D594E1EB3489A004184EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 790D594D1EB3489A004184EF /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		790D59481EB3458E004184EF /* QLCNewNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLCNewNavigationController.m; sourceTree = "<group>"; };
 		790D594A1EB345A0004184EF /* QLCPublishNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLCPublishNavigationController.h; sourceTree = "<group>"; };
 		790D594B1EB345A0004184EF /* QLCPublishNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLCPublishNavigationController.m; sourceTree = "<group>"; };
+		790D594D1EB3489A004184EF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		790D58F11EB310DC004184EF = {
 			isa = PBXGroup;
 			children = (
+				790D594D1EB3489A004184EF /* Default-568h@2x.png */,
 				790D58FC1EB310DC004184EF /* BaiSi */,
 				790D58FB1EB310DC004184EF /* Products */,
 			);
@@ -375,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				790D590D1EB310DC004184EF /* LaunchScreen.storyboard in Resources */,
+				790D594E1EB3489A004184EF /* Default-568h@2x.png in Resources */,
 				790D590A1EB310DC004184EF /* Assets.xcassets in Resources */,
 				790D592F1EB3434B004184EF /* Info.plist in Resources */,
 			);
